@@ -3,9 +3,9 @@
 To start the app execute the following command:
 
 ```console
-./mvn clean package
-docker build -t my-hello-world-docker . 
-docker run -d my-hello-world-docker
+./mvnw clean package
+docker build -t my-hello-world-docker .
+docker run my-hello-world-docker
 ```
 
 Good luck ! 🤞🏽

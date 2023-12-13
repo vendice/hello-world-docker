@@ -5,7 +5,7 @@ FROM openjdk
 WORKDIR /app
 
 # Kopiere die JAR-Datei der Spring Boot-Anwendung ins Arbeitsverzeichnis
-COPY target/HelloWorld-1.0-SNAPSHOT.jar /app/
+COPY target/hello-world-docker-1.0-SNAPSHOT.jar /app/
 
 # Setze den Befehl, der beim Start des Containers ausgeführt wird
-CMD ["java", "-cp", "HelloWorld-1.0-SNAPSHOT.jar", "org.example.Main"]
+CMD ["java", "-cp", "hello-world-docker-1.0-SNAPSHOT.jar", "org.example.Main"]
