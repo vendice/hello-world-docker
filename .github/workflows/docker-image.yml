@@ -29,8 +29,8 @@ jobs:
           context: .
           push: true
           tags: |
-            moteer/hello-world-docker:latest
-            moteer/hello-world-docker:${{ github.sha }}
+            vendice/hello-world-docker:latest
+            vendice/hello-world-docker:${{ github.sha }}
 
       - name: Log in to Docker Hub
         run: docker login -u ${{ secrets.DOCKERHUB_USERNAME }} -p ${{ secrets.DOCKERHUB_TOKEN }}
