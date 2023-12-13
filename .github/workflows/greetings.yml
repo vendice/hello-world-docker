@@ -19,5 +19,5 @@ jobs:
     - uses: cinotify/github-action@main
       with:
         to: 'erik.hoelzel@posteo.de'
-        subject: 'oha noch eine email'
-        body: 'Oder was !!!'
+        subject: 'Es gab einen Pull request oder ein issue'
+        body: 'HALLLO ########## :)'
