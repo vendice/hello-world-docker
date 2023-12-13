@@ -3,12 +3,9 @@
 To start the app execute the following command:
 
 ```console
-./mvn clean package && docker build -t my-react-app . && docker run -d -p 8085:3000 my-react-app
-```
-```console
 ./mvn clean package
-docker build -t my-react-app . 
-docker run -d -p 8085:3000 my-react-app
+docker build -t my-hello-world-docker . 
+docker run -d my-hello-world-docker
 ```
 
 Good luck ! 🤞🏽
